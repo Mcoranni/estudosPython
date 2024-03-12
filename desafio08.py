@@ -1,5 +1,13 @@
 #Fala um programa que leia um número qualquer e faça a sua tabuada
-n = int(input('Digite um número de 1 a 10: '))
+n = int(input('Digite um número para ver a sua tabuada: '))
 
-print('{} X 1 = {} \n{} X 2 = {} \n{} X 3 = {} \n{} X 4 = {} \n{} X 5 = {} \n{} X 6 = {} \n{} X 7 = {} \n{} X 8 = {} \n{} X 9 = {} \n{} X 10 = {} \n '
-      .format(n, n*1, n, n*2, n, n*3, n, n*4, n, n*5, n, n*6, n, n*7, n, n*8, n, n*9, n, n*10))
+print('{} x {:2} = {}'.format(n, 1, n*1))
+print('{} x {:2} = {}'.format(n, 2, n*2))
+print('{} x {:2} = {}'.format(n, 3, n*3))
+print('{} x {:2} = {}'.format(n, 4, n*4))
+print('{} x {:2} = {}'.format(n, 5, n*5))
+print('{} x {:2} = {}'.format(n, 6, n*6))
+print('{} x {:2} = {}'.format(n, 7, n*7))
+print('{} x {:2} = {}'.format(n, 8, n*8))
+print('{} x {:2} = {}'.format(n, 9, n*9))
+print('{} x {:2} = {}'.format(n, 10, n*10))

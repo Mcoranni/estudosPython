@@ -1,7 +1,8 @@
 #Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média.
-media1 = int(input('Digite sua nota do primeiro semestre: '))
-media2 = int(input('Agora digite a sua nota do segundo semestre: '))
+n1 = float(input('Digite sua nota do primeiro semestre: '))
+n2 = float(input('Agora digite a sua nota do segundo semestre: '))
 
-total = int(media1 + media2)
+notas = int(n1 + n2)
+final = notas / 2
 
-print ('Sua média final foi de: {}'.format(total/2))
+print ('A média entre {} e {} é {}'.format(n1, n2, final))
