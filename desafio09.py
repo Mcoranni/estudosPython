@@ -1,9 +1,8 @@
 #Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
 
-din = float(input('Olá, me diga quanto de dinheiro você tem: '))
+din = float(input('Olá, me diga quanto de dinheiro você tem: R$'))
 
-conversao = din/4.98
+dolar = din/4.98
+euro = din/5.43
 
-resultado = conversao
-
-print ('Olá, você tem: R${:.2f} Reais e pode comprar ${:.2f} Dólares'.format(din, resultado))
+print ('Com: R${:.2f} Reais e pode comprar U${:.2f} Dólares e €{:.2f} Euros'.format(din, dolar, euro))

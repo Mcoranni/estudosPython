@@ -2,7 +2,7 @@
 
 preco = float(input('Olá, qual o preço do produto? '))
 
-calculo = (preco * 5) / 100
+calculo = preco * 5 / 100
 
 resultado = preco - calculo
 
